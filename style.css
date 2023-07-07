@@ -31,3 +31,90 @@
 .menu-itame:hover{
   color: blueviolet;
 }
+.bener-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image:url(./images/background.png);
+  linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+  background-color: black;
+  color: white;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: cover ;
+  
+}
+.bener-img{
+  width: 300px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text{
+  font-size: 54px;
+  font-weight: bold;
+}
+.pera{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.btn{
+  margin-top: 20px;
+  padding: 13px 20px;
+  outline: none;
+  background-color: red;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+/* about section */
+.about-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height:70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: cover ;
+
+}
+
+.about-title{
+  text-align: center;
+  font-size: 54px;
+  font-weight: bold;
+}
+.about-img{
+  width: 300px;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* product section  */
+.product-container{
+  background-image: url(./images/background.png),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+
+}
+.Service-img{
+width: 100px;
+
+}
+.box{
+  width: 200px;
+  height: 280px;
+  /* border: 1px solid gray; */
+  padding: 15px;
+  text-align: center;
+  box-shadow: 6px 4px 105px gray;
+  border-radius: 10px;
+  margin-top: 90px;
+
+}
