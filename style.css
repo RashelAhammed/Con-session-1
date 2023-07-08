@@ -118,3 +118,34 @@ width: 100px;
   margin-top: 90px;
 
 }
+.footer-cotainer{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 60px;
+  padding: 40px;
+  line-height: 20px;
+}
+.fotter-logo{
+  width: 120px;
+  padding: 10px;
+}
+.footer-p{
+  font-size: 20px;
+  line-height: 25px;
+}
+hr{
+  margin-top: 100px 80px;
+  text-align: center;
+}
+.copyright{
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+.foooter-section{
+  background-color: black;
+}
+
